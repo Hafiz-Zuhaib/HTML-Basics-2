@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="login.html">Login</a> |
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 style="text-align: center;">Login Page</h1>
+        <hr>
+        
+        <fieldset style="margin: 0 auto; width: 500px; text-align: center;">
+            <legend style="text-align: center;">Login Form</legend>
+            <form>
+                <label for="firstname">First name :</label>
+                <input type="text" placeholder="Enter your First name" name="firstname"  id="firstname"><br><br>
+                <label for="lastname">Last name :</label>
+                <input type="text" placeholder="Enter your Last name" name="lastname" id="lastname"><br><br>
+                <label for="cityname">City name :</label>
+                <input type="text" placeholder="Enter your City name" name="cityname" id="cityname"><br><br>
+                <label for="email">Email :</label>
+                <input type="email" placeholder="Enter your Email address" name="email" id="email"><br><br>
+                <label for="password">Password :</label>
+                <input type="password" placeholder="Enter your Password" name="password" id="password"><br><br>
+                <label for="dateofbirth">Date of Birth :</label>
+                <input type="date" placeholder="Enter your Date of Birth" name="dateofbirth" id="dateofbirth"><br><br>
+                <label for="whatsaap number">Whatsaap number :</label>
+                <input type="tel" placeholder=" Your Whatsaap number" name="whatsaap number" id="whatsaap number"><br><br>
+
+                <p style="margin: 0;">Gender</p>
+                <label for="gender-male">Male</label>
+                <input type="radio" name="gender" value="gender-male" id="gender-male"><br>
+                <label for="gender-female">Female</label>
+                <input type="radio" name="gender" value="gender-female" id="gender-female"><br>
+                <label for="gender-others">Others</label>
+                <input type="radio" name="gender" value="gender-others" id="gender-others"><br>
+
+                <label for="age">Age :</label>
+                <input type="number" name="age" id="age" min="0" max="18">
+
+                <p style="margin: 0;">Hobbies</p>
+                <lebel for="hobbies-sports">Sports</lebel>
+                <input type="checkbox" name="hobbies" value="hobbies-sports" id="hobbies-sports"><br>
+                <lebel for="hobbies-codding">Codding</lebel>
+                <input type="checkbox" name="hobbies" value="hobbies-codding" id="hobbies-codding"><br>
+                <lebel for="hobbies-teaching">Teaching</lebel>
+                <input type="checkbox" name="hobbies" value="hobbies-teaching" id="hobbies-teaching"><br>
+                <lebel for="hobbies-education">Education</lebel>
+                <input type="checkbox" name="hobbies" value="hobbies-education" id="hobbies-education"><br>
+                <lebel for="hobbies-gardening">Gardening</lebel>
+                <input type="checkbox" name="hobbies" value="hobbies-gardening" id="hobbies-gardening"><br>
+
+                <label>Select Occupation :</label>
+                <select name="occupation" id="occupation">
+                <option value="sports">Sports</option>
+                <option value="travelling">Travelling</option>
+                <option value="teaching">Teaching</option>
+                <option value="reading">Reading</option>
+                <option value="hockey">Hockey</option>
+                </select><br><br>
+
+                <label for="bio">Bio</label><br>
+                <textarea placeholder="Write few lines about yourself." name="bio" id="bio" rows="07" cols="10"></textarea>
+            </form>
+        </fieldset>
+    </main>
+    
+    <footer style="text-align: center;">
+        <p>&copy; 2024 All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
